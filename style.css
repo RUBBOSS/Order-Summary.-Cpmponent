@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-family: "Red Hat Display";
+    padding: 40px 0 30px;
+}
+
+h4 {
+    font-family: "Red Hat Display";
+    color: hsl(223, 47%, 23%);
+}
+
+.prew {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-family: "Red Hat Display";
+}
+
+
+.picture {
+    height: 171px;
+}
+
+.preview {
+    border-radius: 0 0 20px 20px;
+    height: 400px;
+    background-color: #fff;
+}
+
+.prew {
+    padding-bottom: 40px;
+}
+
+.payment {
+    padding-left: 25px;
+    display:flex;
+
+}
+
+.price {
+    font-size: 14px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    padding: 10px 10px 0 0;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Red Hat Display";
+    padding: 15px 0 0 77px;
+}
+
+.change:hover{
+    color:hsl(224, 23%, 55%) ;
+}
+
+.musicPic{
+    padding: 0 20px 40px 28px;
+}
+
+.pic {
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+}
+
+.button {
+    font-weight: 600;
+    font-family: "Red Hat Display";
+    border-radius: 10px;
+    width: 320px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    background-color:  hsl(245, 75%, 52%);
+}
+
+.button:hover {
+    background-color:hsl(224, 23%, 55%);
+}
+
+.acancel {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Red Hat Display";
+    color: hsl(224, 23%, 55%);
+}
+
+.acancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel {
+    padding-top: 30px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    color: aliceblue;
+}
+
+
+@media(max-width:375px) {
+
+    main { width: 400px;
+    height: 700px;
+    }
+
+    .pic {
+        border-radius: 20px 20px 0 0;
+        width: 300px;
+    }
+
+    .picture {
+        height: 146px;
+    }
+
+    .preview {
+        border-radius: 0 0 20px 20px;
+        height: 400px;
+        width: 300px;
+        background-color: #fff;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .prew {
+        font-size: 14px;
+    }
+    .musicPic {
+        height: 45px;
+        right: 10px;
+        padding: 0; 
+        margin: 0 10px 10px 0;
+    }
+
+    h4 {
+        position: relative;
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 45px;
+    }
+
+    .attribution {
+        position: absolute;
+        display: inline;
+        align-items: flex-end;
+    }
+
+    .change {
+        font-size: 13px;
+        padding: 11px 0 0 47px;;
+    }
+
+    .button {
+        width: 250px;
+    }
+
+    .acancel {
+        font-size: 13px;
+    }
+
+    .attribution {
+        width: 399px;
+        display: inline;
+    }
+
+
+}
